@@ -4,9 +4,9 @@ This mini-application fetches data from two public REST API endpoints, caches th
 
 Features: 
 
-Fetches data from two API endpoints (/posts and /users)
+1. Fetches data from two API endpoints (/posts and /users)
 
-Caches data in a local file: cache.json
+2. Caches data in a local file: cache.json
 
 CLI interface to:
 
@@ -18,25 +18,25 @@ CLI interface to:
 
 Full error handling:
 
-Network failures
+1. Network failures
 
-Timeouts
+2. Timeouts
 
-Invalid / malformed JSON
+3. Invalid / malformed JSON
 
-Missing fields
+4. Missing fields
 
-Lightweight, fast, and simple to run
+5. Lightweight, fast, and simple to run
 
 Tech Stack
 
-Python 3
+1. Python 3
 
-Requests library
+2. Requests library
 
-JSONPlaceholder API (public, no authentication required)
+3. JSONPlaceholder API (public, no authentication required)
 
-API Endpoints Used
+4. API Endpoints Used
 
 Posts:
 https://jsonplaceholder.typicode.com/posts
@@ -91,7 +91,7 @@ Enter post ID (e.g., 5)
 
 Cache File
 
-API results are stored in cache.json
+1. API results are stored in cache.json
 
 This prevents repeated API calls and speeds up the program
 
@@ -99,23 +99,23 @@ Error Handling:
 
 The script handles:
 
-Network issues
+1. Network issues
 
-Timeout errors
+2. Timeout errors
 
-Malformed or missing fields
+3. Malformed or missing fields
 
-Invalid user input
+4. Invalid user input
 
-Missing post IDs
+5. Missing post IDs
 
 Assumptions: 
 
-JSONPlaceholder API is stable and reliable
+1. JSONPlaceholder API is stable and reliable
 
-Data structure remains consistent
+2. Data structure remains consistent
 
-CLI output is acceptable as per assignment instructions
+3. CLI output is acceptable as per assignment instructions
 
 Author: 
 
